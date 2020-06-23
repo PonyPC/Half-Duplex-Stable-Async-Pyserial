@@ -10,7 +10,7 @@ try:
 except ImportError:
 	termios = None
 
-DEBUG = True
+DEBUG = False
 
 INIT_TRANS = 0x01
 DO_TRANS = 0x02
